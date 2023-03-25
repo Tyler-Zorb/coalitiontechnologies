@@ -87,6 +87,115 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+  color: black;
+  background-color: white;
+}
+
+ol, ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #4d4d4d;
+  font-size: 80px;
+  padding-left: 40px;
+  margin: -20px;
+  position: absolute;
+}
+
+h2 {
+  color: #414f6b;
+  font-size: 80px;
+  position: absolute;
+}
+
+h3 {
+  color: #414f6b
+}
+
+h4 {
+  color: #4d4d4d;
+}
+
+h5 {
+  color: #4c5b77;
+  font-size: 50px;
+}
+
+h6 {
+  color: #b0b4be;
+}
+
+h7 {
+  color: #414f6b;
+}
+
+
+
+/*---------Base Header Styles ----------*/
+header {
+  background-image: url('../img/header-mntn.jpg');
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.header-divider {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: row wrap;
+}
+
+nav {
+  float: right;  
+  margin-right: 100px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  color: #f7f0f0;
+  padding-left: 80px;
+}
+
+
+
+/*----------History-------*/
+.history {
+  background-image: url('../img/peak.jpg');
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+
+
+
+/*------Climb---------*/
+.climb {
+  background-image: url('../img/mountain1.jpg');
+  height: 500px;
+  background-size: cover;
+  background-position: left;
+  width: 50%;
+
+  background-image: url('../img/mountain2.jpg');
+  height: 500px;
+  background-size: cover;
+  background-position: right;
+  width: 50%;
+}
 
 
 
@@ -123,8 +232,6 @@ textarea {
 
 
 
-
-   
 
 /* ==========================================================================
    Helper classes
