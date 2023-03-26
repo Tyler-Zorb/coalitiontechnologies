@@ -188,31 +188,23 @@ a {
   height: 700px;
   background-size: cover;
   background-position: center;
-  width: 100%;
-}
-
-.history-content p {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
 }
 
 #history p {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  width: 900px;
+  padding-left: 100px;
 }
-
-
 
 
 /*------Climb---------*/
 #climb {
-  background-image: url('../img/mountain1.jpg'), url('../img/mountain2.jpg');
-  height: 500px;
-  width: 500px;
-  background-position: left top, right bottom, left top;
-  background-repeat: no-repeat;
+  background-image: url('../img/mountain1.jpg');
+  height: 550px;
+  background-size: cover;
+  background-position: center;
 }
 
 
