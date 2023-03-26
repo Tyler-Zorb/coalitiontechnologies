@@ -100,8 +100,7 @@ ol, ul {
 
 h1 {
   color: #4d4d4d;
-  font-size: 80px;
-  padding-left: 40px;
+  font-size: 80px;  
   margin: -20px;
   position: absolute;
 }
@@ -113,11 +112,14 @@ h2 {
 }
 
 h3 {
-  color: #414f6b
+  color: #414f6b;     
+  position: absolute;
+  padding-left: 45px;
 }
 
 h4 {
   color: #4d4d4d;
+  margin: -2px;
 }
 
 h5 {
@@ -168,10 +170,20 @@ nav ul li a {
   padding-left: 80px;
 }
 
+.main-content-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+a {
+  display: flex;
+  justify-content: right;
+  padding-left: 1600px;
+}
 
 
 /*----------History-------*/
-.history {
+#history {
   background-image: url('../img/peak.jpg');
   height: 700px;
   background-size: cover;
@@ -179,22 +191,28 @@ nav ul li a {
   width: 100%;
 }
 
+.history-content p {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#history p {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
 
 
 
 /*------Climb---------*/
-.climb {
-  background-image: url('../img/mountain1.jpg');
+#climb {
+  background-image: url('../img/mountain1.jpg'), url('../img/mountain2.jpg');
   height: 500px;
-  background-size: cover;
-  background-position: left;
-  width: 50%;
-
-  background-image: url('../img/mountain2.jpg');
-  height: 500px;
-  background-size: cover;
-  background-position: right;
-  width: 50%;
+  width: 500px;
+  background-position: left top, right bottom, left top;
+  background-repeat: no-repeat;
 }
 
 
@@ -320,6 +338,62 @@ nav ul li a {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+
+   @media only screen and (min-width: 768px) {
+   /* Tablet Styles Here */
+
+
+  }
+
+
+  @media only screen and (min-width:1200px) {
+    /* Desktop Styles Here */
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
