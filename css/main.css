@@ -136,7 +136,9 @@ h7 {
   color: #414f6b;
 }
 
-
+body {
+  overflow-x: hidden;
+}
 
 /*settting margins and padding for these sections */
 h1,
@@ -173,7 +175,8 @@ nav {
 }
 
 footer {
-  padding: 80px 0;
+  /*padding: 80px 0;*/
+  background-color: #414f6b;
 }
 
 h2 {
@@ -201,7 +204,6 @@ h6 {
 h7 {
   margin-bottom: 20px;
 }
-
 
 
 
@@ -263,8 +265,6 @@ a {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  /*width: 900px;*/
-  /*padding-left: 100px;*/
 }
 
 #history h5 {
@@ -281,7 +281,31 @@ a {
 }
 
 
+/*------Footer--------*/
+.footer-headers h4 {
+  padding: 70px;
+  color: #a0aabd;
+  margin: 10px;
+  position: absolute; left: -30px; bottom: -2212px;
+}
 
+.footer-headers h3 {
+  color: #a0aabd;
+  position: absolute; right: 320px; bottom: -2175px;
+}
+
+#figure-3 {
+  color: #a0aabd;
+}
+
+.footer-headers p {
+  color: #a0aabd;
+  text-align: center;
+}
+
+.footer {
+  padding-bottom: -10px;
+}
 
 
 
@@ -428,6 +452,22 @@ a {
       padding-left: 100px;
     }
 
+    /*----Footer------*/
+    .footer-headers p {
+      text-align: right;
+    }
+    
+    .footer-headers h4 {
+      padding: 70px;
+      color: #a0aabd;
+      margin: 10px;
+      position: absolute; left: -30px; bottom: -1670px;
+    }
+    
+    .footer-headers h3 {
+      color: #a0aabd;
+      position: absolute; right: 1738px; bottom: -1635px;
+    }
 
   }
 
